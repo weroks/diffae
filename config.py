@@ -18,27 +18,8 @@ from dataset_util import *
 from torch.utils.data.distributed import DistributedSampler
 
 data_paths = {
-    'ffhqlmdb256':
-    os.path.expanduser('datasets/ffhq256.lmdb'),
-    # used for training a classifier
-    'celeba':
-    os.path.expanduser('datasets/celeba'),
-    # used for training DPM models
-    'celebalmdb':
-    os.path.expanduser('datasets/celeba.lmdb'),
-    'celebahq':
-    os.path.expanduser('datasets/celebahq256.lmdb'),
-    'horse256':
-    os.path.expanduser('datasets/horse256.lmdb'),
-    'bedroom256':
-    os.path.expanduser('datasets/bedroom256.lmdb'),
-    'celeba_anno':
-    os.path.expanduser('datasets/celeba_anno/list_attr_celeba.txt'),
-    'celebahq_anno':
-    os.path.expanduser(
-        'datasets/celeba_anno/CelebAMask-HQ-attribute-anno.txt'),
-    'celeba_relight':
-    os.path.expanduser('datasets/celeba_hq_light/celeba_light.txt'),
+    'tapev06':
+    os.path.expanduser('datasets/fluorescence/v0.6/embeddings.pt'),
 }
 
 
